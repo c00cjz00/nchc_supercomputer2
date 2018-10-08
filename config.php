@@ -9,6 +9,6 @@ if (!defined('MODULE_FILE')) {
 ## 請先安裝 sshpass
 $sshpassBin="/usr/bin/sshpass";
 $ip="clogin1.twnia.nchc.org.tw"; // or clogin2.twnia.nchc.org.tw , glogin1.twnia.nchc.org.tw
-$user="";
-$otpKey = '';
+$user="c00cjz00";
+$otpKey = '6UPOOBOEYLAUZV5PRXM3ARFAI3TH573VZQXJ4R73VI4PFW6JMJZQ====';
 ?>
