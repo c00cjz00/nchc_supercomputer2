@@ -2,6 +2,7 @@ rm *~
 rm */*~
 rm */*/*~
 rm  */*/*/*~
+rm DEADJOE
 #git cloen ...
 #cd r1
 #echo 1 > README.md
