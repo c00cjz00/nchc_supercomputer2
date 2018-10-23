@@ -37,6 +37,10 @@
 #PBS -l walltime=00:01:00
 
 ###### -> 指定要送入計算排程區域，這裡 cf160 是運算結點
+###### ->  qstat -Q 查詢可用狀況
+###### > qstat  |grep u00cwh00 |grep job name
+###### > fusermount -u /work1/c00cjz00/s3DISK/ ; cat ~/.passwd-s3fs
+######> ./s3fs c00cjz00  s3DISK/  -o  url=http://s3-cloud.nchc.org.tw -o uid=10183,gid=3254,umask=000
 #PBS -q cf160 
 
 ###### ->Merging standard output and error files

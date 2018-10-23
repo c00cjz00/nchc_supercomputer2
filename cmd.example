@@ -1,0 +1,3 @@
+php 4-pbs.php 2018010101010 'user@example.com' 'TRI654321' 'select=1:ncpus=8:ngpus=4' '00:01:00' 'cf160' 'pyrazine.out' 'pyrazine.error' 'ls -al'
+php 3-autoSSH_sftp.php /home/c00cjz00/datatable /home/c00cjz00/atriMedicine_000.sql; \
+php 1-autoSSH_sendCmd.php  'ls /home/c00cjz00/datatable ;cd /home/c00cjz00/datatable; pwd;date';
