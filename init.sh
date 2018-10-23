@@ -10,7 +10,6 @@ git config --global user.name "c00cjz00"
 git config --global user.email summerhill001@gmail.com
 #git pull
 git checkout master
-git rm DEADJOE
 git add *
 git commit -m "init"
 # 上傳至遠端

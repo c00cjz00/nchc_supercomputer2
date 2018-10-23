@@ -1,7 +1,7 @@
 <?php
 /***
 Edit config.php
-Example: php 1-autoSSH_sendCmd.php 'date;date;date;'
+Example: php ssh-autoSSH_sendCmd.php  'date;date;date;'
 ***/
 define('MODULE_FILE', true);
 include("config.php");

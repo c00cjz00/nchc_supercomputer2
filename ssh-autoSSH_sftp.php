@@ -1,7 +1,7 @@
 <?php
 /***
 Edit config.php
-Example: php  php 3-autoSSH_sftp.php /home/c00cjz00/9000 lib/  # argv[1]=remote dir, argv[2]=upload file
+Example: php ssh-autoSSH_sftp.php /home/c00cjz00/9000 lib/  # argv[1]=remote dir, argv[2]=upload file
 ***/
 define('MODULE_FILE', true);
 include("config.php");
@@ -24,7 +24,7 @@ for($i=2;$i<$argc;$i++){
 if (!isset($passwd) || ($passwd=="")) $passwd=prompt_silent();
 
 
-
+$message=0;
 if (($passwd!="") && ($otpKey!="") && ($localFiles!="")){
  $sendCmd="mkdir ".$remoteDir."\\n cd ".$remoteDir."\\n ";
  $localFiles= trim($sendCmd)." ".trim($localFiles);
